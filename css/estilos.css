@@ -205,7 +205,7 @@
 .footer {
     width: 100%;
     height: 105vh;
-    background-color: #000000;
+    background-color: red;
     color: #ffff;
     padding-top: 100px;
     position: fixed;
@@ -221,10 +221,15 @@
     margin: 0 auto;
 }
 
-.footer-info > h1 {
-    padding-bottom: 20px;
-    font-size: 95px;
-    font-family: 'Marck Script', cursive;
+.firmaSVG{
+    max-width: 100vw;    
+    height: 8rem;
+    margin: 3rem 0 3rem;
+}
+
+.firma svg {
+    vertical-align: middle;
+    z-index: 50;
 }
 
 .footer-contact {
@@ -286,4 +291,134 @@
         margin-top: -25px;
         font-size: 33px;
     }
+}
+
+
+/*Animacion firma Footer*/
+.svg-elem-1,
+.svg-elem-2,
+.svg-elem-3,
+.svg-elem-4,
+.svg-elem-5,
+.svg-elem-6,
+.svg-elem-7,
+.svg-elem-8,
+.svg-elem-9,
+.svg-elem-10,
+.svg-elem-11,
+.svg-elem-12 {
+  fill: transparent;
+}
+
+path.svg-elem-1 {
+  stroke-dasharray: 1000px;
+  fill: none;
+  stroke-dashoffset: -1000px;
+}
+
+path.svg-elem-2,
+path.svg-elem-3,
+path.svg-elem-4,
+path.svg-elem-5,
+path.svg-elem-7,
+path.svg-elem-8,
+path.svg-elem-9,
+path.svg-elem-11 {
+  stroke-dasharray: 200px;
+  fill: none;
+  stroke-dashoffset: -200px;
+}
+
+path.svg-elem-6 {
+  stroke-dasharray: 900px;
+  fill: none;
+  stroke-dashoffset: -900px;
+}
+
+path.svg-elem-10 {
+  stroke-dasharray: 600px;
+  fill: none;
+  stroke-dashoffset: -600px;
+}
+
+path.svg-elem-12 {
+  stroke-dasharray: 800px;
+  fill: none;
+  stroke-dashoffset: -800px;
+}
+
+.activeSection path.svg-elem-1,
+.activeSection path.svg-elem-6 {
+  stroke-width: 5;
+  stroke: #fff;
+  stroke-dashoffset: 0px;
+}
+
+.activeSection path.svg-elem-2,
+.activeSection path.svg-elem-3,
+.activeSection path.svg-elem-4,
+.activeSection path.svg-elem-5,
+.activeSection path.svg-elem-7,
+.activeSection path.svg-elem-8,
+.activeSection path.svg-elem-9,
+.activeSection path.svg-elem-10,
+.activeSection path.svg-elem-11,
+.activeSection path.svg-elem-12 {
+  stroke-width: 3;
+  stroke:  #fff;
+  stroke-dashoffset: 0px;
+}
+
+.activeSection path.svg-elem-6 {
+  stroke-width: 4;
+  stroke:  #fff;
+  stroke-dashoffset: 0px;
+}
+
+.activeSection path.svg-elem-1 {
+  transition: 1.8s linear 0.5s;
+}
+
+.activeSection path.svg-elem-2 {
+  transition: 1.8s linear 1.8s;
+}
+
+.activeSection path.svg-elem-3 {
+  transition: 1.8s linear 3.3s;
+}
+
+.activeSection path.svg-elem-4 {
+  transition: 1.8s linear 4.8s;
+}
+
+.activeSection path.svg-elem-5 {
+  transition: 1.8s linear 5.5s;
+}
+
+.activeSection path.svg-elem-6 {
+  transition: 1.8s linear 7.3s;
+}
+
+.activeSection path.svg-elem-7 {
+  transition: 1.8s linear 8.8s;
+}
+
+.activeSection path.svg-elem-8 {
+  transition: 1.8s linear 10s;
+}
+
+.activeSection path.svg-elem-9 {
+  transition: 1.8s linear 11.5s;
+}
+
+.activeSection path.svg-elem-10 {
+  transition: 1.8s linear 12.2s;
+}
+
+.activeSection path.svg-elem-11 {
+  transition: 1.8s linear 13.4s;
+}
+
+.activeSection path.svg-elem-12 {
+  transition: 1.8s linear 15.4s;
 }
