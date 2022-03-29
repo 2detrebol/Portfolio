@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -12,27 +15,22 @@
     top: 0;
     background-color: transparent;
     width: 100%;
-    height: 80px;
-    padding-left: 50px;
-    
-    z-index: 50;    
-    font-size: 3em;
+    height: 3.7rem;
+    z-index: 50;        
+    transition: background .3s linear;
 }
 
-.scrolling {
-    background-color: #000000;    
-    transition: all 0.5s ease;    
+nav.scrolled {
+  background: #000000;
 }
 
-.navbar-logo {
-    height: 80px;
-    line-height: 80px;
+.navbar-logo {        
     color: white;
     text-shadow: 4px 4px 3px #585858;
     cursor: pointer;
-    font-family: 'Marck Script', cursive;
-    letter-spacing: 5px;
-    font-size: 55px;
+    font-family: 'Inspiration', cursive;    
+    font-size: 2rem;
+    padding: .5rem 0 0 .5rem;    
 }   
 
 /*COVER VIDEO FONDO*/
@@ -40,12 +38,15 @@
 .cover-container {
     height: 100vh;
     width: 100%;
-    object-fit: contain;
-    box-shadow: insert 0 0 0 1000px rgba(0, 0, 0, 0.6);
+    object-fit: contain;    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 5px 5px rgba(0,0,0,0.6);
 }
 
 .video {
@@ -56,17 +57,13 @@
     z-index: -50;
 }
 
-.cover-container > h1 {
-    color: white;
-    font-size: 120px;
-    font-weight: 900;
+.cover-container > h1 {    
+    font-size: 8rem;    
 }
 
 .cover-container > p {
-    margin-top: 8px;
-    color: white;
-    font-size: 40px;
-    font-weight: 900;
+    margin-top: .5rem;    
+    font-size: 2rem;     
 }
 
 @media screen and (max-width: 960px) {
@@ -205,91 +202,69 @@
 .footer {
     width: 100%;
     height: 105vh;
-    background-color: red;
+    background-color: #000000;
     color: #ffff;
     padding-top: 100px;
     position: fixed;
     z-index: -150;
     bottom: 0;
     left: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer-info {
-    font-size: 35px;
+    font-size: 5rem;
     padding: 30px 0 30px 50px;
-    width: 70%;
+    max-width: 100vw;
     margin: 0 auto;
 }
 
 .firmaSVG{
-    max-width: 100vw;    
-    height: 8rem;
-    margin: 3rem 0 3rem;
+    max-width: 100vw;        
+    margin: 4rem 0 2rem;    
 }
 
-.firma svg {
-    vertical-align: middle;
-    z-index: 50;
+#firma {
+    vertical-align: middle;    
+    width: 90vw;
 }
 
 .footer-contact {
-    font-size: 25px;
+    font-size: 3.5rem;
     padding: 40px 0 30px 50px;
     width: 70%;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 
-
-.desing-by {
-    width: 80%;    
-    left: 50px;
-    margin-top: 90px;    
-    display: flex;    
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    align-content: flex-end;
-}
 
 .sns-links {
-    display: grid;    
-    text-align: center;
-    width: 50%;    
-    grid-template-columns: repeat(4, 2fr);
-    grid-template-rows: 2fr;
-    grid-column-gap: 25px;
-    grid-row-gap: 25px;    
-    font-size: 40px;        
-    margin-top: 5px;
-    margin-left: 215px;
+    display: flex;  
+    flex-flow: row;  
+    justify-content: space-evenly;        
+    font-size: 40px;                        
 }
 
+.sns-links a{
+  text-decoration: none;    
+  cursor: pointer;  
+  color: #fff;
+}
 
 @media only screen and (max-width: 960px) {
     .footer-info {
         text-align: center;
         align-items: center;
         padding: 0;
-        font-size: 20px;
-    }
-    .footer-info > h1 {
-        font-size: 70px;
-    }
+        font-size: 1.8rem;        
+        max-width: 100vw;
+    }    
     .footer-contact {
-        font-size: 18px;
+        font-size: 1.6rem;
         text-align: center;
-        padding: 60px 0 50px 0;
-    }
-    .desing-by {        
-        margin-left: 75px;        
-        margin-top: 8em;
-        justify-content: center;
-        
-    }
-    .sns-links {
-        margin-left: 190px;
-        margin-top: -25px;
-        font-size: 33px;
+        padding: 5rem 0 1.5rem 0;
+    }    
+    .sns-links {             
+        font-size: 1.8rem;
     }
 }
 
@@ -376,49 +351,70 @@ path.svg-elem-12 {
 }
 
 .activeSection path.svg-elem-1 {
-  transition: 1.8s linear 0.5s;
+  transition: 1.5s linear 0.5s;
 }
 
 .activeSection path.svg-elem-2 {
-  transition: 1.8s linear 1.8s;
+  transition: 1.5s linear 1.7s;
 }
 
 .activeSection path.svg-elem-3 {
-  transition: 1.8s linear 3.3s;
+  transition: 1.5s linear 2.8s;
 }
 
 .activeSection path.svg-elem-4 {
-  transition: 1.8s linear 4.8s;
+  transition: 1.5s linear 4.2s;
 }
 
 .activeSection path.svg-elem-5 {
-  transition: 1.8s linear 5.5s;
+  transition: 1.5s linear 4.8s;
 }
 
 .activeSection path.svg-elem-6 {
-  transition: 1.8s linear 7.3s;
+  transition: 1.5s linear 6.2s;
 }
 
 .activeSection path.svg-elem-7 {
-  transition: 1.8s linear 8.8s;
+  transition: 1.5s linear 7.4s;
 }
 
 .activeSection path.svg-elem-8 {
-  transition: 1.8s linear 10s;
+  transition: 1.5s linear 8.3s;
 }
 
 .activeSection path.svg-elem-9 {
-  transition: 1.8s linear 11.5s;
+  transition: 1.5s linear 9.5s;
 }
 
 .activeSection path.svg-elem-10 {
-  transition: 1.8s linear 12.2s;
+  transition: 1.5s linear 10.2s;
 }
 
 .activeSection path.svg-elem-11 {
-  transition: 1.8s linear 13.4s;
+  transition: 1.5s linear 11s;
 }
 
 .activeSection path.svg-elem-12 {
-  transition: 1.8s linear 15.4s;
+  transition: 1.5s linear 12.4s;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 768px) {
+  .navbar {    
+    height: 5rem;        
+  }
+  .navbar-logo {             
+    font-size: 3rem;    
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navbar {    
+    height: 5.5rem;        
+  }
+  .navbar-logo {             
+    font-size: 3rem;
+    padding: 0.8rem 0 0 1rem;  
+  }
 }

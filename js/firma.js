@@ -3,7 +3,7 @@ var viewport = $(window),
   setVisible = function (e) {
     var viewportTop = viewport.scrollTop(),
       viewportBottom = viewport.scrollTop() + viewport.height();
-    $(".firmaSVG").each(function () {
+    $("#firma").each(function () {
       var self = $(this),
         top = self.offset().top,
         bottom = top + self.height(),
