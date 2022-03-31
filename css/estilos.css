@@ -98,16 +98,17 @@ nav.scrolled {
   text-align: center;
   max-width: 100vw;
   padding: 2.5rem 1rem 0 1rem;
+  overflow: hidden;
 }
 
 .about-desc h3 {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 2rem;  
 }
 
 .about-desc p {
   text-align: justify;
-  line-height: 1.5;
+  line-height: 1.5;  
 }
 
 .about-desc p span {
@@ -223,7 +224,7 @@ nav.scrolled {
   max-width: 100vw;    
   height: 13rem;  
   margin-bottom: 100vh;
-  background: url(../src/fondo.jpg);
+  background: url(../src/fondoChico.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -239,15 +240,16 @@ nav.scrolled {
 
 .info h3 {  
   text-align: center;    
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   width: auto;
   font-family: 'Roboto', sans-serif;
-  background: rgba(255,255,255, 0.4);
-  backdrop-filter: blur (10px);
   -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 0 0 200px rgba(255,255,255,0.08);  
   border-radius: 5px;
   color: #fff;  
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+  padding: .5rem 0 .5rem 0;
 }
 
 @media only screen and (max-width: 960px) {
@@ -297,17 +299,17 @@ nav.scrolled {
   height: 100vh;
   background-color: #000000;
   color: #ffff;
-  padding-top: 2rem;
+  padding-top: 3.5rem;
   position: fixed;
   z-index: -150;
   bottom: 0;
   left: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;  
 }
 
 .footer-info {
   font-size: 1.8rem;
-  padding-top: 3.5rem;
+  padding-top: 5rem;
   max-width: 100vw;
   margin: 0 auto;
   text-align: center;
@@ -331,6 +333,7 @@ nav.scrolled {
   text-align: center;
   padding: 5rem 0 1.5rem 0;
 }
+
 
 .sns-links {
   display: flex;
@@ -379,9 +382,10 @@ nav.scrolled {
 .svg-elem-10,
 .svg-elem-11,
 .svg-elem-12 {
-  fill: transparent;
+  fill: #fff;  
+  /*fill: none;*/
 }
-
+/*
 path.svg-elem-1 {
   stroke-dasharray: 1000px;
   fill: none;
@@ -493,7 +497,7 @@ path.svg-elem-12 {
 
 .activeSection path.svg-elem-12 {
   transition: 1.5s linear 12.4s;
-}
+}*/
 
 /*MEDIA QUERIES*/
 @media only screen and (min-width: 576px) {
