@@ -30,7 +30,7 @@ nav.scrolled {
   cursor: pointer;
   font-family: 'Inspiration', cursive;
   font-size: 2rem;
-  padding: .5rem 0 0 .5rem;
+  padding-left: .5rem;
 }
 
 /*COVER VIDEO FONDO*/
@@ -86,7 +86,7 @@ nav.scrolled {
   flex-flow: row wrap;
   background-color: #fff;
   color: #000000;
-  max-width: 100vw;
+  max-width: 100vw;  
   padding: 2rem 0 2rem 0;
 }
 
@@ -102,7 +102,7 @@ nav.scrolled {
 }
 
 .about-desc h3 {
-  margin-bottom: 1rem;
+  margin-bottom: .8rem;
   font-size: 2rem;  
 }
 
@@ -267,22 +267,35 @@ nav.scrolled {
 /*SLIDER CARROUSEL*/
 
 .slider-container {
-  width: 100%;
-  height: 450px;
+  width: 100vw;  
+  height: 65vh;
   background-color: #000000;
-  color: #ffff;
+  color: #ffff;  
 }
 
-.slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  font-size: 50px;
+.proyectos h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;  
+  margin: 0.5rem 0 0.5rem;
+  line-height: 1.5;
+  text-shadow: -2px 2px 2px rgba(255, 255, 255, 0.6);
+}
+
+
+.bordesImg {
+  max-width: 95%;
+  height: auto;  
+  border-top-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+  cursor: pointer;
+}
+
+.carousel-item a {
+  text-decoration: none;  
 }
 
 @media only screen and (max-width: 960px) {
-  .slider-container {
+ /* .slider-container {
     height: 300px;
   }
 
@@ -290,7 +303,7 @@ nav.scrolled {
     align-items: center;
     font-size: 30px;
   }
-}
+}*/
 
 /*FOOTER*/
 
@@ -531,6 +544,7 @@ path.svg-elem-12 {
 
   .navbar-logo {
     font-size: 3rem;
-    padding: 0.8rem 0 0 1rem;
+    padding-left: 1rem;
   }
+}
 }
