@@ -45,6 +45,9 @@ nav.scrolled {
   transition: linear .5s;
 }
 
+.botonBurger {
+  margin-top: -.5rem;
+}
 
 .botonBurger:focus {
   box-shadow: none;
@@ -61,10 +64,6 @@ nav.scrolled {
   background-repeat: no-repeat;
 }
 
-.linkShow {
-  position: absolute;
-  top: 8.9vh;
-}
 
 .vinculoAbout,
 .vinculoContact,
