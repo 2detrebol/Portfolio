@@ -14,3 +14,10 @@ window.onscroll = function () {
     burger.classList.remove("scrolled");
   }
 };
+
+$(".vinculoInicio, .vinculoAbout, .vinculoProyect, .vinculoContact").on(
+  "click",
+  function () {
+    $(".brugerLinks").collapse("hide");
+  }
+);
