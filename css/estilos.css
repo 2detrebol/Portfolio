@@ -38,6 +38,7 @@ nav.scrolled {
   font-family: 'Inspiration', cursive;
   font-size: 2rem;
   padding-left: .5rem;
+  margin-top: -.3rem;
 }
 
 .navbar-logo.scrolled {
@@ -46,7 +47,7 @@ nav.scrolled {
 }
 
 .botonBurger {
-  margin-top: -.5rem;
+  margin-top: -.3rem;
 }
 
 .botonBurger:focus {
@@ -64,6 +65,9 @@ nav.scrolled {
   background-repeat: no-repeat;
 }
 
+.brugerLinks {
+  margin-top: .4rem;
+}
 
 .vinculoAbout,
 .vinculoContact,
