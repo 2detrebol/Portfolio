@@ -47,11 +47,15 @@ nav.scrolled {
 
 .burger {
   background-image: url(/src/burger.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .burger.scrolled {
   background-image: url(/src/burger1.png);
   transition: linear .5s;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .vinculoAbout,
@@ -112,7 +116,7 @@ nav.scrolled {
 .about-container {
   display: flex;
   flex-flow: row wrap;
-  background: url(/src/vectorFondo.png);
+  background: url(/src/vectorFondo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 10%;
