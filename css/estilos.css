@@ -21,16 +21,44 @@
 }
 
 nav.scrolled {
-  background: #000000;
+  background-color: #fff;
+  box-shadow: 0 0.4rem 1rem rgba(60, 136, 184, 0.5);
+  transition: linear .5s;
+
 }
 
 .navbar-logo {
-  color: white;
+  color: #fff;
   text-shadow: 4px 4px 3px #585858;
   cursor: pointer;
   font-family: 'Inspiration', cursive;
   font-size: 2rem;
   padding-left: .5rem;
+}
+
+.navbar-logo.scrolled {
+  color: #3C88B8;
+  transition: linear .5s;
+}
+
+.botonBurger:focus {
+  box-shadow: none;
+}
+
+.burger {
+  background-image: url(/src/burger.png);
+}
+
+.burger.scrolled {
+  background-image: url(/src/burger1.png);
+  transition: linear .5s;
+}
+
+.vinculoAbout,
+.vinculoContact {
+  text-decoration: none;
+  color: #fff;
+  display: block;
 }
 
 /*COVER VIDEO FONDO*/
@@ -84,6 +112,10 @@ nav.scrolled {
 .about-container {
   display: flex;
   flex-flow: row wrap;
+  background: url(/src/vectorFondo.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 10%;
   background-color: #fff;
   color: #000000;
   max-width: 100vw;
