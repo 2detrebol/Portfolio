@@ -18,6 +18,6 @@ window.onscroll = function () {
 $(".vinculoInicio, .vinculoAbout, .vinculoProyect, .vinculoContact").on(
   "click",
   function () {
-    $(".brugerLinks").collapse("hide");
+    $(".burgerLinks").collapse("hide");
   }
 );
