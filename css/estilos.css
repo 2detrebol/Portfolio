@@ -70,7 +70,7 @@ nav.scrolled {
 .vinculoContact,
 .vinculoProyect {
   text-decoration: none;
-  color: #3C88B8;
+  color: #033281;
   font-weight: 700;
   display: block;
   margin-bottom: .8rem;
@@ -381,6 +381,12 @@ nav.scrolled {
   cursor: pointer;
 }
 
+.carousel-item img {
+  box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
+}
+
 .carousel-item a {
   text-decoration: none;
 }
@@ -440,6 +446,11 @@ nav.scrolled {
     bottom: 0;
     left: 0;
     font-family: 'Roboto', sans-serif;
+    background: url(/src/vectorFondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 30rem;
+    background-color: #fff;
   }
 
   .footer-info {
