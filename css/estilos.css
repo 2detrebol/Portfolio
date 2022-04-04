@@ -42,7 +42,7 @@ nav.scrolled {
 }
 
 .navbar-logo.scrolled {
-  color: #3C88B8;
+  color: #033281;
   transition: linear .5s;
 }
 
@@ -154,7 +154,7 @@ nav.scrolled {
   background-size: 100%;
   background-position-y: 18%;
   background-color: #fff;
-  color: #3C88B8;
+  color: #033281;
   max-width: 100vw;
   padding-top: 2rem;
 }
@@ -178,6 +178,7 @@ nav.scrolled {
 .about-desc p {
   text-align: justify;
   line-height: 1.5;
+  font-size: 1.1rem;
 }
 
 .about-desc p span {
@@ -229,6 +230,7 @@ nav.scrolled {
   margin-top: 1rem;
   display: flex;
   justify-content: center;
+  font-size: 2rem;
 }
 
 .proximos {
@@ -341,13 +343,18 @@ nav.scrolled {
 
 /*SLIDER CARROUSEL*/
 
+#myProyect {
+  position: relative;
+  top: -4.3rem;
+}
 
 .slider-container {
   width: 100vw;
-  height: 75vh;
-  background: url(/src/vectorFondo2.jpg);
+  height: 65vh;
+  background: url(/src/vectorFondo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position-y: 4.8rem;
   background-color: #fff;
   color: #3C88B8;
   display: flex;
@@ -358,10 +365,11 @@ nav.scrolled {
 
 .proyectos h3 {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   line-height: 1.5;
-  text-shadow: -2px 2px 2px rgba(255, 255, 255, 0.6);
-  color: #000000;
+  font-weight: 900;
+  /*text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.6);*/
+  color: #033281;
 }
 
 
@@ -383,15 +391,27 @@ nav.scrolled {
   align-content: center;
   position: relative;
   max-width: 100%;
-  bottom: 0;
+  bottom: 0rem;
   left: 0;
   padding-bottom: 0;
-  color: #3C88B8;
+  color: #033281;
 }
 
 /*no funciona color verrrrrrrr*/
-.carousel-indicators button {
-  color: #3C88B8;
+.carousel-indicators {
+  position: absolute;
+  bottom: -.5rem;  
+}
+
+.botonSlider {  
+  background-color: rgb(60, 136, 184, 0.8);
+  border-radius: 15px;    
+  padding: 0 .5rem 0 .5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+  margin-left: .5rem;
+  margin-right: .5rem;
 }
 
 /*no funciona color verrrrrrrr*/
@@ -412,8 +432,8 @@ nav.scrolled {
   .footer {
     width: 100%;
     height: 100vh;
-    background-color: #000000;
-    color: #ffff;
+    background-color: #fff;
+    color: #033281;
     padding-top: 3.5rem;
     position: fixed;
     z-index: -150;
@@ -460,22 +480,25 @@ nav.scrolled {
   .sns-links a {
     text-decoration: none;
     cursor: pointer;
-    color: #fff;
+    color: #033281;    
   }
 
-  .fa-twitter:hover {
+  .tfooter:hover, .tfooter:focus {
     color: #1A8CD8;
   }
 
-  .fa-linkedin:hover {
+  .lfooter:hover, .lfooter:focus {
     color: #0A66C2;
   }
 
-  .fa-github:hover {
-    color: #161B22;
+  .gfooter {
+    color: #033281;
+  }
+  .gfooter:hover, .gfooter:focus {
+    color: #000000;
   }
 
-  .fa-whatsapp:hover {
+  .wfooter:hover, .wfooter:focus {
     color: #4ECB5C;
   }
 
@@ -514,7 +537,7 @@ nav.scrolled {
   .svg-elem-10,
   .svg-elem-11,
   .svg-elem-12 {
-    fill: #fff;
+    fill: #033281;
     /*fill: none;*/
   }
 
