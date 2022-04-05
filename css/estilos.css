@@ -530,19 +530,19 @@ nav.scrolled {
   /*MEDIA QUERIES*/
   @media only screen and (min-width: 576px) {
     .navbar {
-      height: 2.9rem;
+      height: 2.3rem;
     }
 
     .navbar-logo {
-      font-size: 1.6rem;      
+      font-size: 1.3rem;      
     }
 
     .burger {
-      font-size: 1.2rem;
+      font-size: 1rem;
     }
 
     nav.scrolled {     
-      background-position-y: -6.8rem;
+      background-position-y: -7.2rem;
     }
 
     .burgerLinks {
@@ -559,7 +559,7 @@ nav.scrolled {
     }
     
     #aboutMe {     
-      top: -2.8rem;
+      top: -2.3rem;
     }
 
     .about-container {
@@ -567,16 +567,16 @@ nav.scrolled {
       background-position-y: -3rem;     
       z-index: 60;
       height: 100vh;
-      z-index: 70;
+      justify-content: center;
     }
 
     .about-img {
-      max-width: 50vw;
+      max-width: 50vw;      
+      align-items: center;
     }
 
-    .imagenAbout {
-      margin-top: 1rem;
-      max-height: 80%;
+    .imagenAbout {      
+      height: 75%;
     }
 
     .about-desc {
@@ -587,30 +587,28 @@ nav.scrolled {
       -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(1rem);  
   box-shadow: 0 0 10px rgb(192, 192, 192);       
-      border-radius: 10px;
-      margin-left: .5rem;
+      border-radius: 10px;      
       margin-top: .1rem;
-      height: 85vh;      
+      height: 88%;     
+      align-items: center;
+      justify-content: center;
     }
     
     .about-desc h3 {    
       font-size: 1.5rem;
-      margin-top: 0.2rem;
-      margin-bottom: .5rem; 
+      margin: .5rem 0 0 0;      
       text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.6);
     }
     
     .about-desc p {      
       font-size: .8rem;
-      margin-left: .8rem;
-      margin-right: .8rem;      
+      margin: .8rem .8rem 0 .8rem;
       text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.8);      
     }
 
     .about-desc ul i {
       font-size: 1.8rem;
-      margin-left: .5rem;      
-      margin-right: .5rem;      
+      margin: .5rem .5rem 0 .5rem;
     }
 
     .proximos {
@@ -643,7 +641,11 @@ nav.scrolled {
       font-size: 1rem;
       padding: 0 .5rem 0 .5rem;
     }
-
+    
+    .carousel-item a img{     
+      max-width: 90%;            
+    }
+    
     .subtitulosSlider {      
       flex-direction: row;
       justify-content: center;
@@ -661,6 +663,7 @@ nav.scrolled {
     .footer {            
       padding-top: 0;                  
       background-position-y: 11.5rem;
+      background-size: 100vw;
       height: auto;      
     }
   
