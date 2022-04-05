@@ -189,7 +189,7 @@ nav.scrolled {
 
 .aprendidos {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   padding: 0;
 }
 
@@ -380,9 +380,9 @@ nav.scrolled {
 }
 
 .carousel-item img {
-  box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
-  -webkit-box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
-  -moz-box-shadow: 0px 10px 10px 0px rgba(30,30,30,0.8);
+  box-shadow: 0px 10px 10px 0px rgba(30, 30, 30, 0.8);
+  -webkit-box-shadow: 0px 10px 10px 0px rgba(30, 30, 30, 0.8);
+  -moz-box-shadow: 0px 10px 10px 0px rgba(30, 30, 30, 0.8);
 }
 
 .carousel-item a {
@@ -403,12 +403,12 @@ nav.scrolled {
 
 .carousel-indicators {
   position: absolute;
-  bottom: -.5rem;  
+  bottom: -.5rem;
 }
 
-.botonSlider {  
+.botonSlider {
   background-color: rgb(60, 136, 184, 0.8);
-  border-radius: 15px;    
+  border-radius: 15px;
   padding: 0 .5rem 0 .5rem;
 }
 
@@ -486,30 +486,35 @@ nav.scrolled {
   .sns-links a {
     text-decoration: none;
     cursor: pointer;
-    color: #033281;    
+    color: #033281;
   }
 
-  .tfooter:hover, .tfooter:focus {
+  .tfooter:hover,
+  .tfooter:focus {
     color: #1A8CD8;
   }
 
-  .lfooter:hover, .lfooter:focus {
+  .lfooter:hover,
+  .lfooter:focus {
     color: #0A66C2;
   }
 
   .gfooter {
     color: #033281;
   }
-  .gfooter:hover, .gfooter:focus {
+
+  .gfooter:hover,
+  .gfooter:focus {
     color: #000000;
   }
 
-  .wfooter:hover, .wfooter:focus {
+  .wfooter:hover,
+  .wfooter:focus {
     color: #4ECB5C;
   }
 
 
- 
+
   /*Animacion firma Footer*/
   .svg-elem-1,
   .svg-elem-2,
@@ -525,7 +530,7 @@ nav.scrolled {
   .svg-elem-12 {
     fill: #033281;
     /*fill: none;*/
-  } 
+  }
 
   /*MEDIA QUERIES*/
   @media only screen and (min-width: 576px) {
@@ -534,78 +539,78 @@ nav.scrolled {
     }
 
     .navbar-logo {
-      font-size: 1.3rem;      
+      font-size: 1.3rem;
     }
 
     .burger {
       font-size: 1rem;
     }
 
-    nav.scrolled {     
-      background-position-y: -7.2rem;
+    nav.scrolled {
+      background-position-y: -7rem;
     }
 
     .burgerLinks {
-      background-position-y: -1rem;
-      margin-top: 0;          
+      background-position-y: -1.5rem;
+      margin-top: 0;
     }
-    
+
     .cover-container h1 {
       font-size: 5rem;
     }
-    
-    .cover-container p {      
+
+    .cover-container p {
       font-size: 2rem;
     }
-    
-    #aboutMe {     
+
+    #aboutMe {
       top: -2.3rem;
     }
 
     .about-container {
-      padding-top: .5rem;    
-      background-position-y: -3rem;     
+      padding-top: .5rem;
+      background-position-y: -3rem;
       z-index: 60;
       height: 100vh;
       justify-content: center;
     }
 
     .about-img {
-      max-width: 50vw;      
+      max-width: 50vw;
       align-items: center;
     }
 
-    .imagenAbout {      
+    .imagenAbout {
       height: 75%;
       margin-bottom: 2.5rem;
     }
 
     .about-desc {
       max-width: 48vw;
-      padding: 0;      
+      padding: 0;
       /*backdrop-filter: blur(12px);      
       box-shadow: 0 0 10px rgb(192, 192, 192);*/
       -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(1rem);  
-  box-shadow: 0 0 10px rgb(192, 192, 192);       
-      border-radius: 10px;      
+      backdrop-filter: blur(1rem);
+      box-shadow: 0 0 10px rgb(192, 192, 192);
+      border-radius: 10px;
       margin-top: 1rem;
       margin-bottom: 3.5rem;
-      height: auto;     
+      height: auto;
       align-items: center;
       justify-content: center;
     }
-    
-    .about-desc h3 {    
+
+    .about-desc h3 {
       font-size: 1.5rem;
-      margin: 0 auto;      
+      margin: 0 auto;
       text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.6);
     }
-    
-    .about-desc p {      
+
+    .about-desc p {
       font-size: .8rem;
       margin: .8rem .8rem 0 .8rem;
-      text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.8);      
+      text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.8);
     }
 
     .about-desc ul i {
@@ -622,82 +627,85 @@ nav.scrolled {
 
     #myProyect {
       position: relative;
-      top: -1rem;     
+      top: -1rem;
     }
 
-    .slider-container {      
+    .slider-container {
       background: #fff;
       height: auto;
-      color: #3C88B8;      
+      color: #3C88B8;
       flex-direction: row;
       justify-content: space-evenly;
       padding-top: 3rem;
-      padding-bottom: 3.5rem; 
+      padding-bottom: 3.5rem;
     }
 
     .proyectos {
-      align-items: center;      
+      align-items: center;
     }
 
     .proyectos h3 {
       font-size: 1rem;
       padding: 0 .5rem 0 .5rem;
     }
-    
-    .carousel-item a img{     
-      max-width: 90%;            
+
+    .carousel-item a img {
+      max-width: 80%;
     }
-    
-    .subtitulosSlider {      
+
+    .subtitulosSlider {
       flex-direction: row;
       justify-content: center;
       align-items: center;
       position: relative;
       max-width: 100%;
-      bottom: 0.5rem;      
+      bottom: 0.5rem;
     }
 
-    .subtitulosSlider h5, .subtitulosSlider p {
-      margin: 0 1rem 0 1rem !important;  
-      font-size: 1.1rem;  
+    .subtitulosSlider h5,
+    .subtitulosSlider p {
+      margin: 0 1rem 0 1rem !important;
+      font-size: 1.1rem;
     }
 
-    .footer {            
-      padding-top: 0;                  
+    .footer {
+      padding-top: 0;
       background-position-y: 11.5rem;
       background-size: 100vw;
-      height: auto;      
+      height: auto;
     }
-  
+
     .footer-info {
       font-size: 1.2rem;
       padding: 0 !important;
-      position: relative;      
+      position: relative;
       top: 0;
     }
-  
-    .firmaSVG {      
+
+    .firmaSVG {
       margin: 0;
     }
-  
-    #firma {      
+
+    #firma {
       width: 70vw;
+      padding-top: 1.5rem;
     }
-  
-    .footer-contact {      
-      font-size: 1.2rem;      
+
+    .footer-contact {
+      font-size: 1.2rem;
       padding: 1rem 0 .5rem 0;
       position: relative;
       top: 0;
-    }  
-  
-    .sns-links {      
-      font-size: 1.1rem;      
+    }
+
+    .sns-links {
+      font-size: 1.1rem;
       position: relative;
       top: -0.5rem;
     }
   }
 }
+
 /*
   @media only screen and (min-width: 768px) {
     .navbar {
