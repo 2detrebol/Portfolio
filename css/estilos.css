@@ -697,7 +697,8 @@ nav.scrolled {
       top: -0.5rem;
     }
   }
-
+}
+/*
   @media only screen and (min-width: 768px) {
     .navbar {
       height: 5rem;
@@ -718,4 +719,4 @@ nav.scrolled {
       padding-left: 1rem;
     }
   }
-}
+}*/
