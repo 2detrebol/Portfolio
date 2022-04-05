@@ -546,7 +546,7 @@ nav.scrolled {
     }
 
     .burgerLinks {
-      background-position-y: -3.5rem;
+      background-position-y: -5rem;
       margin-top: 0;
     }
 
@@ -649,7 +649,7 @@ nav.scrolled {
     }
 
     .carousel-item a img {
-      max-width: 90%;
+      max-width: 80%;
     }
 
     .subtitulosSlider {
