@@ -577,6 +577,7 @@ nav.scrolled {
 
     .imagenAbout {      
       height: 75%;
+      margin-bottom: 2.5rem;
     }
 
     .about-desc {
@@ -588,15 +589,16 @@ nav.scrolled {
   backdrop-filter: blur(1rem);  
   box-shadow: 0 0 10px rgb(192, 192, 192);       
       border-radius: 10px;      
-      margin-top: .1rem;
-      height: 88%;     
+      margin-top: 1rem;
+      margin-bottom: 3.5rem;
+      height: auto;     
       align-items: center;
       justify-content: center;
     }
     
     .about-desc h3 {    
       font-size: 1.5rem;
-      margin: .5rem 0 0 0;      
+      margin: 0 auto;      
       text-shadow: -1.5px 1.5px 1px rgba(60, 136, 184, 0.6);
     }
     
@@ -625,12 +627,12 @@ nav.scrolled {
 
     .slider-container {      
       background: #fff;
-      height: 100vh;
+      height: auto;
       color: #3C88B8;      
       flex-direction: row;
       justify-content: space-evenly;
       padding-top: 3rem;
-      padding-bottom: 2rem; 
+      padding-bottom: 3.5rem; 
     }
 
     .proyectos {
@@ -671,7 +673,7 @@ nav.scrolled {
       font-size: 1.2rem;
       padding: 0 !important;
       position: relative;      
-      top: -1.5rem;
+      top: 0;
     }
   
     .firmaSVG {      
@@ -686,13 +688,13 @@ nav.scrolled {
       font-size: 1.2rem;      
       padding: 1rem 0 .5rem 0;
       position: relative;
-      top: -2.3rem;
+      top: 0;
     }  
   
     .sns-links {      
       font-size: 1.1rem;      
       position: relative;
-      top: -2.5rem;
+      top: -0.5rem;
     }
   }
 
