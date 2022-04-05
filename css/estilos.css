@@ -542,11 +542,11 @@ nav.scrolled {
     }
 
     nav.scrolled {
-      background-position-y: -7rem;
+      background-position-y: -8.5rem;
     }
 
     .burgerLinks {
-      background-position-y: -9rem;
+      background-position-y: -7rem;
       margin-top: 0;
     }
 
@@ -676,7 +676,7 @@ nav.scrolled {
     }
 
     .botonSlider {
-      bottom: -1.5rem;
+      bottom: -2.3rem;
     }
 
     .botonSlider button {
