@@ -542,11 +542,11 @@ nav.scrolled {
     }
 
     nav.scrolled {
-      background-position-y: -8.5rem;
+      background-position-y: -9rem;
     }
 
     .burgerLinks {
-      background-position-y: -7rem;
+      background-position-y: -2rem;
       margin-top: 0;
     }
 
@@ -675,12 +675,12 @@ nav.scrolled {
       font-size: 1.1rem;
     }
 
-    .botonSlider {
-      bottom: -2.3rem;
-    }
-
     .botonSlider button {
       max-width: 1.2rem;
+    }
+
+    .carousel-indicators {
+      bottom: -1.5rem;
     }
 
     .footer {
