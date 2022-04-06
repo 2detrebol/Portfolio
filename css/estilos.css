@@ -831,15 +831,161 @@ nav.scrolled {
     top: 14rem;
   }    
 }
-/*
-  @media only screen and (min-width: 1024px) {
-    .navbar {
-      height: 5.5rem;
-    }
 
-    .navbar-logo {
-      font-size: 3rem;
-      padding-left: 1rem;
-    }
+@media only screen and (min-width: 1024px) {
+
+  nav.scrolled {
+    background-position-y: -12rem;
   }
-}*/
+    
+  .burgerLinks {
+    background-position-y: -2rem;    
+    height: 53vh;
+  }
+
+  .cover-container h1 {
+    font-size: 8rem;
+  }
+
+  .cover-container p {
+    font-size: 3.5rem;
+  }
+
+  .about-container {    
+    background-position-y: -5rem;
+    height: 85vh;         
+  }
+
+  .about-img {
+    max-width: 50vw;
+    align-items: center;
+  }
+
+  .imagenAbout {
+    height: 70%;
+    margin-bottom: 3.5rem;
+  }
+
+  .about-desc {
+    max-width: 48vw;     
+    background: rgba( 255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 10px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.3 );
+    border-radius: 10px;
+    margin-top: 3.5rem;    
+    height: 72vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-desc h3 {
+    font-size: 2.8rem;
+    margin-top: -1rem;    
+  }
+
+  .about-desc p {
+    font-size: 1.3rem;    
+  }  
+
+  .about-desc ul {
+    width: 100%;
+  }
+
+  .about-desc ul i {
+    font-size: 3.2rem;    
+  }
+
+  .next {
+    padding-top: .5rem;
+    font-size: 1.8rem !important;
+  }
+
+  .slider-container {
+    background: #fff;    
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 90vh;
+    padding-top: 3.5rem;
+    
+  }
+
+  .proyectos h3 {
+    font-size: 2rem;    
+  }
+
+  
+  .carousel-control-prev {
+    margin-left: 0;
+  }
+
+  .carousel-control-next {
+    margin-right: 0;
+  }
+
+  .slide {
+    max-width: 100%;
+    margin-top: 4rem;
+  }
+
+  .carousel-item a img {
+    max-width: 90%;
+  }
+
+  .subtitulosSlider {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    bottom: 0.5rem;
+  }
+
+  .subtitulosSlider h5,
+  .subtitulosSlider p {
+    margin: 0 1rem 0 1rem !important;
+    font-size: 1.5rem;
+  }
+
+  .botonSlider button {
+    max-width: 3rem;
+  }
+
+  .carousel-indicators {
+    bottom: 1.5rem;
+  }
+
+  .info h3 {
+    font-size: 3.8rem;    
+  }
+
+  .footer {
+    padding-top: 0;
+    background-position-y: 11rem;    
+    height: auto;
+  }
+
+  .footer-info {
+    font-size: 2.5rem;    
+    top: -12rem;
+  }
+
+  #firma {
+    width: 70vw;    
+  }
+
+  .footer-contact {
+    top: -11.5rem;
+  }
+
+  .footer-contact h3 {
+    font-size: 3rem;
+  }
+
+  .sns-links {
+    font-size: 2rem;    
+    top: -11rem;
+  }
+}
