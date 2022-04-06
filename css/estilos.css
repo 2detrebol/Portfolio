@@ -24,7 +24,7 @@ nav.scrolled {
   background: url(../src/fondoNav.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position-y: -2.6rem;
+  background-position-y: -3rem;
   background-position-x: 3rem;
   background-color: #fff;
   box-shadow: 0 0.4rem 1rem rgba(60, 136, 184, 0.5);
@@ -84,7 +84,7 @@ nav.scrolled {
 .burgerLinks {
   margin-top: .4rem;
   background: url(../src/fondoBurger.jpg);
-  background-position-y: 4rem;
+  background-position-y: 5rem;
   background-size: 100%;
   background-repeat: repeat-x;
   display: flex;
@@ -546,7 +546,7 @@ nav.scrolled {
     }
 
     .burgerLinks {
-      background-position-y: -2rem;
+      background-position-y: -6.5rem;
       margin-top: 0;
     }
 
@@ -703,7 +703,7 @@ nav.scrolled {
 
     #firma {
       width: 70vw;
-      padding-top: 1.5rem;
+      padding-top: 2rem;
     }
 
     .footer-contact {
