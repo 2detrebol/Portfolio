@@ -313,7 +313,7 @@ nav.scrolled {
   font-family: 'Roboto', sans-serif;
   font-size: 1.9rem;
   line-height: 1.5;
-  font-weight: 900;  
+  font-weight: 900;
   color: #033281;
 }
 
@@ -361,313 +361,312 @@ nav.scrolled {
 
 
 /*FOOTER*/
-  .footer {
-    width: 100%;
+.footer {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  color: #033281;
+  padding-top: 3.5rem;
+  position: fixed;
+  z-index: -150;
+  bottom: 0;
+  left: 0;
+  font-family: 'Roboto', sans-serif;
+  background: url(/src/vectorFondo.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position-y: 35.5rem;
+  background-color: #fff;
+}
+
+.footer-info {
+  font-size: 1.8rem;
+  padding-top: 4.5rem;
+  max-width: 100vw;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100vw;
+}
+
+.firmaSVG {
+  max-width: 100vw;
+  margin: 3rem 0 2rem;
+}
+
+#firma {
+  vertical-align: middle;
+  width: 90vw;
+}
+
+.footer-contact {
+  width: 100vw;
+  margin: 0 auto;
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 2.5rem 0 1.5rem 0;
+}
+
+
+.sns-links {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  font-size: 1.8rem;
+}
+
+.sns-links a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #033281;
+}
+
+.tfooter:hover,
+.tfooter:focus {
+  color: #1A8CD8;
+}
+
+.lfooter:hover,
+.lfooter:focus {
+  color: #0A66C2;
+}
+
+.gfooter {
+  color: #033281;
+}
+
+.gfooter:hover,
+.gfooter:focus {
+  color: #000000;
+}
+
+.wfooter:hover,
+.wfooter:focus {
+  color: #4ECB5C;
+}
+
+
+/*Animacion firma Footer*/
+.svg-elem-1,
+.svg-elem-2,
+.svg-elem-3,
+.svg-elem-4,
+.svg-elem-5,
+.svg-elem-6,
+.svg-elem-7,
+.svg-elem-8,
+.svg-elem-9,
+.svg-elem-10,
+.svg-elem-11,
+.svg-elem-12 {
+  fill: #033281;
+  /*fill: none;*/
+}
+
+/*MEDIA QUERIES*/
+@media only screen and (min-width: 576px) {
+  .navbar {
+    height: 2.3rem;
+  }
+
+  .navbar-logo {
+    font-size: 1.3rem;
+  }
+
+  .burger {
+    font-size: 1rem;
+  }
+
+  nav.scrolled {
+    background-position-y: -9rem;
+  }
+
+  .burgerLinks {
+    background-position-y: -2.5rem;
+    margin-top: 0;
+    height: auto;
+  }
+
+  .vinculoInicio,
+  .vinculoAbout,
+  .vinculoContact,
+  .vinculoProyect {
+    font-size: 1.5rem;
+  }
+
+  .cover-container h1 {
+    font-size: 5rem;
+  }
+
+  .cover-container p {
+    font-size: 2rem;
+  }
+
+  #aboutMe {
+    top: -2.3rem;
+  }
+
+  .about-container {
+    padding-top: .5rem;
+    background-position-y: -3rem;
+    z-index: 60;
     height: 100vh;
-    background-color: #fff;
-    color: #033281;
-    padding-top: 3.5rem;
-    position: fixed;
-    z-index: -150;
-    bottom: 0;
-    left: 0;
-    font-family: 'Roboto', sans-serif;
-    background: url(/src/vectorFondo.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 35.5rem;
-    background-color: #fff;
+    justify-content: center;
+  }
+
+  .about-img {
+    max-width: 50vw;
+    align-items: center;
+  }
+
+  .imagenAbout {
+    height: 75%;
+    margin-bottom: 2.5rem;
+  }
+
+  .about-desc {
+    max-width: 48vw;
+    padding: 0;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-desc h3 {
+    font-size: 1.5rem;
+    margin: 0 auto;
+  }
+
+  .about-desc p {
+    font-size: .8rem;
+    margin: .8rem .8rem 0 .8rem;
+  }
+
+  .about-desc ul i {
+    font-size: 1.8rem;
+    margin: .5rem .5rem 0 .5rem;
+  }
+
+  .proximos {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 100vw;
+  }
+
+  #myProyect {
+    position: relative;
+    top: -1rem;
+  }
+
+  .slider-container {
+    background: #fff;
+    height: 100vh;
+    color: #3C88B8;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .proyectos {
+    align-items: center;
+  }
+
+  .proyectos h3 {
+    font-size: 1.8rem;
+    padding: 0 .5rem 0 .5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: 3rem;
+  }
+
+  .carousel-control-next {
+    margin-right: 3rem;
+  }
+
+  .slide {
+    max-width: 80vw;
+  }
+
+  .carousel-item a img {
+    max-width: 75%;
+  }
+
+  .subtitulosSlider {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 100%;
+    bottom: 0.5rem;
+  }
+
+  .subtitulosSlider h5,
+  .subtitulosSlider p {
+    margin: 0 1rem 0 1rem !important;
+    font-size: 1.1rem;
+  }
+
+  .botonSlider button {
+    max-width: 1.2rem;
+  }
+
+  .carousel-indicators {
+    bottom: -1.5rem;
+  }
+
+  .info h3 {
+    font-size: 2.5rem;
+    margin: 0 1rem 0 1rem;
+  }
+
+  .footer {
+    padding-top: 0;
+    background-position-y: 11.5rem;
+    background-size: 100vw;
+    height: auto;
   }
 
   .footer-info {
-    font-size: 1.8rem;
-    padding-top: 4.5rem;
-    max-width: 100vw;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 100vw;
+    font-size: 1.2rem;
+    padding: 0 !important;
+    position: relative;
+    top: 0;
   }
 
   .firmaSVG {
-    max-width: 100vw;
-    margin: 3rem 0 2rem;
+    margin: 0;
   }
 
   #firma {
-    vertical-align: middle;
-    width: 90vw;
+    width: 70vw;
+    padding-top: 2rem;
+    margin-bottom: -1rem;
   }
 
   .footer-contact {
-    width: 100vw;
-    margin: 0 auto;
-    font-size: 1.6rem;
-    text-align: center;
-    padding: 2.5rem 0 1.5rem 0;
+    font-size: 1.2rem;
+    padding: 1rem 0 .5rem 0;
+    position: relative;
+    top: -1rem;
   }
-
 
   .sns-links {
-    display: flex;
-    flex-flow: row;
-    justify-content: space-evenly;
-    font-size: 1.8rem;
+    font-size: 1.1rem;
+    position: relative;
+    top: -1rem;
   }
-
-  .sns-links a {
-    text-decoration: none;
-    cursor: pointer;
-    color: #033281;
-  }
-
-  .tfooter:hover,
-  .tfooter:focus {
-    color: #1A8CD8;
-  }
-
-  .lfooter:hover,
-  .lfooter:focus {
-    color: #0A66C2;
-  }
-
-  .gfooter {
-    color: #033281;
-  }
-
-  .gfooter:hover,
-  .gfooter:focus {
-    color: #000000;
-  }
-
-  .wfooter:hover,
-  .wfooter:focus {
-    color: #4ECB5C;
-  }
-
-
-
-  /*Animacion firma Footer*/
-  .svg-elem-1,
-  .svg-elem-2,
-  .svg-elem-3,
-  .svg-elem-4,
-  .svg-elem-5,
-  .svg-elem-6,
-  .svg-elem-7,
-  .svg-elem-8,
-  .svg-elem-9,
-  .svg-elem-10,
-  .svg-elem-11,
-  .svg-elem-12 {
-    fill: #033281;
-    /*fill: none;*/
-  }
-
-  /*MEDIA QUERIES*/
-  @media only screen and (min-width: 576px) {
-    .navbar {
-      height: 2.3rem;
-    }
-
-    .navbar-logo {
-      font-size: 1.3rem;
-    }
-
-    .burger {
-      font-size: 1rem;
-    }
-
-    nav.scrolled {
-      background-position-y: -9rem;
-    }
-
-    .burgerLinks {
-      background-position-y: 2rem;
-      margin-top: 0;
-      height: 35vh;
-    }
-
-    .vinculoInicio,
-    .vinculoAbout,
-    .vinculoContact,
-    .vinculoProyect {      
-      font-size: 2.5rem;
-    }
-
-    .cover-container h1 {
-      font-size: 5rem;
-    }
-
-    .cover-container p {
-      font-size: 2rem;
-    }
-
-    #aboutMe {
-      top: -2.3rem;
-    }
-
-    .about-container {
-      padding-top: .5rem;
-      background-position-y: -3rem;
-      z-index: 60;
-      height: 100vh;
-      justify-content: center;
-    }
-
-    .about-img {
-      max-width: 50vw;
-      align-items: center;
-    }
-
-    .imagenAbout {
-      height: 75%;
-      margin-bottom: 2.5rem;
-    }
-
-    .about-desc {
-      max-width: 48vw;
-      padding: 0;      
-      background: rgba( 255, 255, 255, 0.45);
-      box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-      backdrop-filter: blur( 10px );
-      -webkit-backdrop-filter: blur( 10px );
-      border-radius: 10px;
-      border: 1px solid rgba( 255, 255, 255, 0.3 );
-      border-radius: 10px;
-      margin-top: 1rem;
-      margin-bottom: 3.5rem;
-      height: auto;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .about-desc h3 {
-      font-size: 1.5rem;
-      margin: 0 auto;      
-    }
-
-    .about-desc p {
-      font-size: .8rem;
-      margin: .8rem .8rem 0 .8rem;      
-    }
-
-    .about-desc ul i {
-      font-size: 1.8rem;
-      margin: .5rem .5rem 0 .5rem;
-    }
-
-    .proximos {
-      padding: 0;
-      margin-top: 0;
-      margin-bottom: 0;
-      max-width: 100vw;
-    }
-
-    #myProyect {
-      position: relative;
-      top: -1rem;
-    }
-
-    .slider-container {
-      background: #fff;
-      height: 100vh;
-      color: #3C88B8;
-      flex-direction: row;
-      justify-content: space-evenly;
-      padding-top: 3rem;
-      padding-bottom: 3.5rem;
-    }
-
-    .proyectos {
-      align-items: center;
-    }
-
-    .proyectos h3 {
-      font-size: 1.8rem;
-      padding: 0 .5rem 0 .5rem;
-    }
-
-    .carousel-control-prev {
-      margin-left: 3rem;
-    }
-
-    .carousel-control-next {
-      margin-right: 3rem;
-    }
-
-    .slide {
-      max-width: 80vw;
-    }
-
-    .carousel-item a img {
-      max-width: 75%;
-    }
-
-    .subtitulosSlider {
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      max-width: 100%;
-      bottom: 0.5rem;
-    }
-
-    .subtitulosSlider h5,
-    .subtitulosSlider p {
-      margin: 0 1rem 0 1rem !important;
-      font-size: 1.1rem;
-    }
-
-    .botonSlider button {
-      max-width: 1.2rem;
-    }
-
-    .carousel-indicators {
-      bottom: -1.5rem;
-    }
-
-    .info h3 {
-      font-size: 2.5rem;
-      margin: 0 1rem 0 1rem;
-    }
-
-    .footer {
-      padding-top: 0;
-      background-position-y: 11.5rem;
-      background-size: 100vw;
-      height: auto;
-    }
-
-    .footer-info {
-      font-size: 1.2rem;
-      padding: 0 !important;
-      position: relative;
-      top: 0;
-    }
-
-    .firmaSVG {
-      margin: 0;
-    }
-
-    #firma {
-      width: 70vw;
-      padding-top: 2rem;
-      margin-bottom: -1rem;
-    }
-
-    .footer-contact {
-      font-size: 1.2rem;
-      padding: 1rem 0 .5rem 0;
-      position: relative;
-      top: -1rem;
-    }
-
-    .sns-links {
-      font-size: 1.1rem;
-      position: relative;
-      top: -1rem;
-    }
-  }
+}
 
 
 @media only screen and (min-width: 768px) {
@@ -683,6 +682,17 @@ nav.scrolled {
     font-size: 2rem;
   }
 
+  .burgerLinks {
+    background-position-y: 2.5rem;    
+  }
+
+  .vinculoInicio,
+  .vinculoAbout,
+  .vinculoContact,
+  .vinculoProyect {
+    font-size: 2.5rem;
+  }
+
   .cover-container h1 {
     font-size: 6.5rem;
   }
@@ -691,12 +701,12 @@ nav.scrolled {
     font-size: 3rem;
   }
 
-  .about-container {    
-    background-position-y: 1rem;    
+  .about-container {
+    background-position-y: 1rem;
   }
 
   .about-img {
-    max-width: 100vw;    
+    max-width: 100vw;
   }
 
   .imagenAbout {
@@ -707,7 +717,7 @@ nav.scrolled {
 
   .about-desc {
     max-width: 100vw;
-    padding: 0;      
+    padding: 0;
     background: none;
     box-shadow: none;
     backdrop-filter: none;
@@ -715,15 +725,15 @@ nav.scrolled {
     border-radius: none;
     border: none;
     border-radius: none;
-    margin-top: -1.5rem;            
+    margin-top: -1.5rem;
   }
 
   .about-desc h3 {
-    font-size: 3rem;    
+    font-size: 3rem;
   }
 
   .about-desc p {
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
   }
 
   .about-desc ul {
@@ -731,22 +741,22 @@ nav.scrolled {
   }
 
   .about-desc ul i {
-    font-size: 3.5rem;    
+    font-size: 3.5rem;
   }
 
   .next {
     font-size: 2rem !important;
   }
 
-  .slider-container {        
+  .slider-container {
     flex-direction: column;
     justify-content: space-evenly;
-    padding-top: 4rem;  
-    height: 70vh;  
+    padding-top: 4rem;
+    height: 70vh;
   }
 
   .proyectos h3 {
-    font-size: 3.5rem;    
+    font-size: 3.5rem;
   }
 
   .slide {
@@ -766,13 +776,13 @@ nav.scrolled {
   }
 
   .subtitulosSlider {
-    flex-direction: column;    
+    flex-direction: column;
     bottom: 0;
     top: .5rem;
   }
 
   .subtitulosSlider h5,
-  .subtitulosSlider p {    
+  .subtitulosSlider p {
     font-size: 1.5rem;
   }
 
@@ -785,10 +795,10 @@ nav.scrolled {
   }
 
   .botonSlider button {
-    max-width: 3rem;    
+    max-width: 3rem;
   }
 
-  .carousel-indicators {   
+  .carousel-indicators {
     bottom: -2.5rem;
   }
 
@@ -797,39 +807,39 @@ nav.scrolled {
     background: url(/src/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position:25%
+    background-position: 25%
   }
 
   .info h3 {
-    font-size: 3rem;    
+    font-size: 3rem;
   }
 
-  .footer {    
+  .footer {
     background-position-y: 47rem;
     height: 100vh;
   }
 
   .footer-info {
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
     top: 12rem;
-  }  
-
-  #firma {
-    width: 90vw;        
   }
 
-  .footer-contact {    
+  #firma {
+    width: 90vw;
+  }
+
+  .footer-contact {
     top: 13rem;
   }
 
-  .footer-contact h3{    
+  .footer-contact h3 {
     font-size: 3.5rem;
   }
 
   .sns-links {
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
     top: 14rem;
-  }    
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -837,9 +847,9 @@ nav.scrolled {
   nav.scrolled {
     background-position-y: -12rem;
   }
-    
+
   .burgerLinks {
-    background-position-y: -2rem;    
+    background-position-y: -2rem;
     height: 53vh;
   }
 
@@ -851,9 +861,9 @@ nav.scrolled {
     font-size: 3.5rem;
   }
 
-  .about-container {    
+  .about-container {
     background-position-y: -5rem;
-    height: 85vh;         
+    height: 85vh;
   }
 
   .about-img {
@@ -867,15 +877,15 @@ nav.scrolled {
   }
 
   .about-desc {
-    max-width: 48vw;     
-    background: rgba( 255, 255, 255, 0.45);
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 10px );
-    -webkit-backdrop-filter: blur( 10px );
+    max-width: 48vw;
+    background: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.3 );
+    border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
-    margin-top: 3.5rem;    
+    margin-top: 3.5rem;
     height: 72vh;
     align-items: center;
     justify-content: center;
@@ -883,19 +893,19 @@ nav.scrolled {
 
   .about-desc h3 {
     font-size: 2.8rem;
-    margin-top: -1rem;    
+    margin-top: -1rem;
   }
 
   .about-desc p {
-    font-size: 1.3rem;    
-  }  
+    font-size: 1.3rem;
+  }
 
   .about-desc ul {
     width: 100%;
   }
 
   .about-desc ul i {
-    font-size: 3.2rem;    
+    font-size: 3.2rem;
   }
 
   .next {
@@ -904,19 +914,19 @@ nav.scrolled {
   }
 
   .slider-container {
-    background: #fff;    
+    background: #fff;
     flex-direction: row;
     justify-content: space-evenly;
     height: 90vh;
     padding-top: 3.5rem;
-    
+
   }
 
   .proyectos h3 {
-    font-size: 2rem;    
+    font-size: 2rem;
   }
 
-  
+
   .carousel-control-prev {
     margin-left: 0;
   }
@@ -958,22 +968,22 @@ nav.scrolled {
   }
 
   .info h3 {
-    font-size: 3.8rem;    
+    font-size: 3.8rem;
   }
 
   .footer {
     padding-top: 0;
-    background-position-y: 11rem;    
+    background-position-y: 11rem;
     height: auto;
   }
 
   .footer-info {
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
     top: -12rem;
   }
 
   #firma {
-    width: 70vw;    
+    width: 70vw;
   }
 
   .footer-contact {
@@ -985,7 +995,7 @@ nav.scrolled {
   }
 
   .sns-links {
-    font-size: 2rem;    
+    font-size: 2rem;
     top: -11rem;
   }
 }
