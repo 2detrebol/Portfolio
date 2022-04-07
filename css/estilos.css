@@ -463,7 +463,8 @@ nav.scrolled {
 }
 
 /*MEDIA QUERIES*/
-@media (min-width: 576px) {
+@media only screen and (min-width : 576px) and (max-width : 767px) and (orientation : landscape) { 
+
   .navbar {
     height: 2.3rem;
   }
