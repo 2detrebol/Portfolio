@@ -668,8 +668,8 @@ nav.scrolled {
   }
 }
 
-/*
-@media only screen and (min-width: 768px) {
+
+@media (min-width: 768px) {
   .navbar {
     height: 5rem;
   }
@@ -841,8 +841,8 @@ nav.scrolled {
     top: 14rem;
   }
 }
-*/
-@media only screen and (min-width: 1024px) {
+
+@media (min-width: 1024px) {
 
   nav.scrolled {
     background-position-y: -12rem;
