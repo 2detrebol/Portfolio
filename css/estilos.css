@@ -668,7 +668,7 @@ nav.scrolled {
   }
 }
 
-
+/*
 @media (min-width: 768px) {
   .navbar {
     height: 5rem;
@@ -840,7 +840,7 @@ nav.scrolled {
     font-size: 2.5rem;
     top: 14rem;
   }
-}
+}*/
 
 @media (min-width: 1024px) {
 
