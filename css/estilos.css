@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 /*NAVBAR*/
 
@@ -17,7 +16,7 @@
   width: 100%;
   height: 3.7rem;
   z-index: 50;
-  transition: background .3s linear;
+  transition: background 0.3s linear;
 }
 
 nav.scrolled {
@@ -35,19 +34,19 @@ nav.scrolled {
   color: #fff;
   text-shadow: 4px 4px 3px #585858;
   cursor: pointer;
-  font-family: 'Inspiration', cursive;
+  font-family: "Inspiration", cursive;
   font-size: 2rem;
-  padding-left: .5rem;
-  margin-top: -.3rem;
+  padding-left: 0.5rem;
+  margin-top: -0.3rem;
 }
 
 .navbar-logo.scrolled {
   color: #033281;
-  transition: linear .5s;
+  transition: linear 0.5s;
 }
 
 .botonBurger {
-  margin-top: -.3rem;
+  margin-top: -0.3rem;
 }
 
 .botonBurger:focus {
@@ -61,7 +60,7 @@ nav.scrolled {
 
 .burger.scrolled {
   background-image: url(/src/burger1.png);
-  transition: linear .5s;
+  transition: linear 0.5s;
   background-repeat: no-repeat;
 }
 
@@ -73,7 +72,7 @@ nav.scrolled {
   color: #033281;
   font-weight: 700;
   display: block;
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-size: 1.4rem;
 }
 
@@ -82,7 +81,7 @@ nav.scrolled {
 }
 
 .burgerLinks {
-  margin-top: .4rem;
+  margin-top: 0.4rem;
   background: url(../src/fondoBurger.jpg);
   background-position-y: 4rem;
   background-size: 100%;
@@ -103,7 +102,7 @@ nav.scrolled {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   color: #fff;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
@@ -122,10 +121,9 @@ nav.scrolled {
 }
 
 .cover-container p {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   font-size: 1.6rem;
 }
-
 
 /*ABOUT SECTION*/
 
@@ -148,7 +146,7 @@ nav.scrolled {
 }
 
 .about-desc {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -159,7 +157,7 @@ nav.scrolled {
 }
 
 .about-desc h3 {
-  margin-bottom: .8rem;
+  margin-bottom: 0.8rem;
   font-size: 2rem;
 }
 
@@ -186,27 +184,27 @@ nav.scrolled {
 }
 
 .fa-html5 {
-  color: #EF450A;
+  color: #ef450a;
 }
 
 .fa-css3-alt {
-  color: #2091EB;
+  color: #2091eb;
 }
 
 .fa-bootstrap {
-  color: #8212F2;
+  color: #8212f2;
 }
 
 .fa-sass {
-  color: #C36291;
+  color: #c36291;
 }
 
 .fa-npm {
-  color: #C13534;
+  color: #c13534;
 }
 
 .fa-git-alt {
-  color: #E44D30;
+  color: #e44d30;
 }
 
 .fa-github {
@@ -223,16 +221,16 @@ nav.scrolled {
 .proximos {
   display: flex;
   justify-content: center;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 .fa-js {
-  color: #E8D318;
+  color: #e8d318;
   margin-right: 1rem;
 }
 
 .fa-react {
-  color: #00CDF2;
+  color: #00cdf2;
   margin-left: 1rem;
 }
 
@@ -248,7 +246,6 @@ nav.scrolled {
   max-width: 80%;
   object-fit: cover;
 }
-
 
 /*INFO SECTION */
 
@@ -270,23 +267,21 @@ nav.scrolled {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .info h3 {
   text-align: center;
   font-size: 1.5rem;
   width: auto;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(8px);
   box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
   border-radius: 5px;
   color: #fff;
   text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
-  padding: .5rem 0 .5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
-
 
 /*SLIDER CARROUSEL*/
 
@@ -303,20 +298,19 @@ nav.scrolled {
   background-size: 100%;
   background-position-y: 4.8rem;
   background-color: #fff;
-  color: #3C88B8;
+  color: #3c88b8;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .proyectos h3 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.9rem;
   line-height: 1.5;
   font-weight: 900;
   color: #033281;
 }
-
 
 .bordesImg {
   max-width: 95%;
@@ -350,15 +344,14 @@ nav.scrolled {
 
 .carousel-indicators {
   position: absolute;
-  bottom: -.5rem;
+  bottom: -0.5rem;
 }
 
 .botonSlider {
   background-color: rgb(60, 136, 184, 0.8);
   border-radius: 15px;
-  padding: 0 .5rem 0 .5rem;
+  padding: 0 0.5rem 0 0.5rem;
 }
-
 
 /*FOOTER*/
 .footer {
@@ -371,7 +364,7 @@ nav.scrolled {
   z-index: -150;
   bottom: 0;
   left: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: url(/src/vectorFondo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -406,7 +399,6 @@ nav.scrolled {
   padding: 2.5rem 0 1.5rem 0;
 }
 
-
 .sns-links {
   display: flex;
   flex-flow: row;
@@ -422,12 +414,12 @@ nav.scrolled {
 
 .tfooter:hover,
 .tfooter:focus {
-  color: #1A8CD8;
+  color: #1a8cd8;
 }
 
 .lfooter:hover,
 .lfooter:focus {
-  color: #0A66C2;
+  color: #0a66c2;
 }
 
 .gfooter {
@@ -441,9 +433,8 @@ nav.scrolled {
 
 .wfooter:hover,
 .wfooter:focus {
-  color: #4ECB5C;
+  color: #4ecb5c;
 }
-
 
 /*Animacion firma Footer*/
 .svg-elem-1,
@@ -463,8 +454,7 @@ nav.scrolled {
 }
 
 /*MEDIA QUERIES*/
-@media (min-width : 576px) and (orientation : landscape) {   
-
+@media (min-width: 576px) and (orientation: landscape) {
   .navbar {
     height: 2.3rem;
   }
@@ -507,7 +497,7 @@ nav.scrolled {
   }
 
   .about-container {
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     background-position-y: -3rem;
     z-index: 60;
     height: 100vh;
@@ -547,13 +537,13 @@ nav.scrolled {
   }
 
   .about-desc p {
-    font-size: .8rem;
-    margin: .8rem .8rem 0 .8rem;
+    font-size: 0.8rem;
+    margin: 0.8rem 0.8rem 0 0.8rem;
   }
 
   .about-desc ul i {
     font-size: 1.8rem;
-    margin: .5rem .5rem 0 .5rem;
+    margin: 0.5rem 0.5rem 0 0.5rem;
   }
 
   .proximos {
@@ -571,7 +561,7 @@ nav.scrolled {
   .slider-container {
     background: #fff;
     height: 100vh;
-    color: #3C88B8;
+    color: #3c88b8;
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 3rem;
@@ -585,7 +575,7 @@ nav.scrolled {
 
   .proyectos h3 {
     font-size: 1.8rem;
-    padding: 0 .5rem 0 .5rem;
+    padding: 0 0.5rem 0 0.5rem;
   }
 
   .carousel-control-prev {
@@ -658,7 +648,7 @@ nav.scrolled {
 
   .footer-contact {
     font-size: 1.2rem;
-    padding: 1rem 0 .5rem 0;
+    padding: 1rem 0 0.5rem 0;
     position: relative;
     top: -1rem;
   }
@@ -669,7 +659,6 @@ nav.scrolled {
     top: -1rem;
   }
 }
-
 
 @media (min-width: 768px) {
   .navbar {
@@ -689,7 +678,7 @@ nav.scrolled {
   }
 
   .burgerLinks {
-    background-position-y: 2.5rem;    
+    background-position-y: 2.5rem;
   }
 
   .vinculoInicio,
@@ -712,17 +701,17 @@ nav.scrolled {
   }
 
   .about-img {
-    max-width: 100vw;  
+    max-width: 100vw;
   }
 
-.about-container {
-  justify-content: center;
-}
+  .about-container {
+    justify-content: center;
+  }
 
   .imagenAbout {
     height: 80%;
     margin-bottom: 0;
-    margin-top: 2.5rem;    
+    margin-top: 2.5rem;
   }
 
   .about-desc {
@@ -749,7 +738,7 @@ nav.scrolled {
   }
 
   .about-desc ul {
-    width: 90vw;    
+    width: 90vw;
     margin: 0 auto;
   }
 
@@ -794,7 +783,7 @@ nav.scrolled {
   .subtitulosSlider {
     flex-direction: column;
     bottom: 0;
-    top: .5rem;
+    top: 0.5rem;
   }
 
   .subtitulosSlider h5,
@@ -807,7 +796,6 @@ nav.scrolled {
     height: 1.8rem;
     justify-content: space-evenly;
     align-items: center;
-
   }
 
   .botonSlider button {
@@ -823,7 +811,7 @@ nav.scrolled {
     background: url(/src/fondo.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 25%
+    background-position: 25%;
   }
 
   .info h3 {
@@ -859,7 +847,6 @@ nav.scrolled {
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
-
   .navbar {
     max-width: 100vw;
   }
@@ -929,7 +916,7 @@ nav.scrolled {
   }
 
   .next {
-    padding-top: .5rem;
+    padding-top: 0.5rem;
     font-size: 1.8rem !important;
   }
 
@@ -945,7 +932,6 @@ nav.scrolled {
   .proyectos h3 {
     font-size: 2rem;
   }
-
 
   .carousel-control-prev {
     margin-left: 0;
@@ -977,10 +963,10 @@ nav.scrolled {
   .subtitulosSlider p {
     margin: 0 1rem 0 1rem !important;
     font-size: 1.5rem;
-  }  
+  }
 
   .botonSlider button {
-    max-width: 3rem;    
+    max-width: 3rem;
   }
 
   .carousel-indicators {
