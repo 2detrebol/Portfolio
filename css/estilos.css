@@ -136,7 +136,7 @@ nav.scrolled {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  background: url(/src/vectorFondo.jpg);
+  background: url(../src/vectorFondo.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position-y: 18%;
@@ -528,7 +528,7 @@ nav.scrolled {
 
   .fondoAbout {
     background: rgba(255, 255, 255, 0.45);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    box-shadow: 0 8px 16px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
