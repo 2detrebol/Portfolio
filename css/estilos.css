@@ -885,7 +885,7 @@ nav.scrolled {
 
   .about-desc h3 {
     font-size: 2.8rem;
-    margin-top: -1rem;
+    margin-top: 1rem;
   }
 
   .about-desc p {
@@ -903,6 +903,11 @@ nav.scrolled {
   .next {
     padding-top: 0.5rem;
     font-size: 1.8rem !important;
+  }
+
+  .fa-react,
+  .fa-js {
+    padding-bottom: 1rem;
   }
 
   .slider-container {
@@ -955,7 +960,7 @@ nav.scrolled {
   }
 
   .carousel-indicators {
-    bottom: -2.5rem;
+    bottom: 2rem;
   }
 
   .info-container {
