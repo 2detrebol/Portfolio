@@ -1015,6 +1015,25 @@ nav.scrolled {
   }
 }
 
+@media (min-width: 1200px) {
+  #firma {
+    margin-bottom: -4rem;
+  }
+
+  .localidad {
+    position: relative;
+    top: 2.5rem;
+  }
+
+  .footer-contact {
+    top: -8rem;
+  }
+
+  .sns-links {
+    top: -6rem;
+  }
+}
+
 @media (min-width: 1600px) {
   .carousel-indicators {
     position: relative;
