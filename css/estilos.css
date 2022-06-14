@@ -223,6 +223,7 @@ nav.scrolled {
   display: flex;
   justify-content: center;
   margin-top: 0.5rem;
+  padding: 0;
 }
 
 .fa-js {
@@ -625,7 +626,7 @@ nav.scrolled {
   }
 
   .carousel-indicators {
-    bottom: -1.5rem;
+    bottom: 0.5rem;
   }
 
   .info h3 {
@@ -999,5 +1000,31 @@ nav.scrolled {
   .sns-links {
     font-size: 2rem;
     top: -11rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .carousel-indicators {
+    position: relative;
+    bottom: 2.5rem;
+  }
+
+  nav.scrolled {
+    background-position-y: -27.5rem;
+  }
+
+  .burgerLinks {
+    background-position-y: -36rem;
+    height: 23.5vh;
+  }
+}
+
+@media (min-width: 1920px) {
+  .carousel-indicators {
+    bottom: 1rem;
+  }
+
+  .info-container {
+    height: 20rem;
   }
 }
