@@ -76,6 +76,18 @@ nav.scrolled {
   font-size: 1.4rem;
 }
 
+.vinculoInicio:hover,
+.vinculoInicio:focus,
+.vinculoAbout:hover,
+.vinculoAbout:focus,
+.vinculoContact:hover,
+.vinculoContact:focus,
+.vinculoProyect:hover,
+.vinculoProyect:focus {
+  color: #585858;
+  text-shadow: 2px 1.5px 1.5px #000000;
+}
+
 .vinculoContact {
   padding-bottom: 2rem;
 }
@@ -456,7 +468,7 @@ nav.scrolled {
 }
 
 /*MEDIA QUERIES*/
-@media (min-width: 576px) and (orientation: landscape) {
+@media (min-width: 576px) {
   .navbar {
     height: 2.3rem;
   }
@@ -470,7 +482,7 @@ nav.scrolled {
   }
 
   nav.scrolled {
-    background-position-y: -9rem;
+    background-position-y: -6.5rem;
   }
 
   .burgerLinks {
