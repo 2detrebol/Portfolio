@@ -1078,6 +1078,9 @@ nav.scrolled {
     background-position: bottom;
   }
 
+  .slider-container {
+    height: 95vh;
+  }
 
   nav.scrolled {
     background-position-y: -27.5rem;
