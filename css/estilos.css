@@ -1079,7 +1079,7 @@ nav.scrolled {
   }
 
   .slider-container {
-    height: 95vh;
+    height: 110vh;
   }
 
   nav.scrolled {
@@ -1089,6 +1089,10 @@ nav.scrolled {
   .burgerLinks {
     background-position-y: -36rem;
     height: 27.5vh;
+  }
+
+  #firma {
+    margin-bottom: -6rem;
   }
 }
 
