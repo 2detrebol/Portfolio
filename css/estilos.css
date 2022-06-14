@@ -1016,6 +1016,15 @@ nav.scrolled {
 }
 
 @media (min-width: 1200px) {
+  .slider-container {
+    height: 100vh;
+  }
+
+  .carousel-indicators {
+    position: relative;
+    bottom: 1.5rem;
+  }
+
   #firma {
     margin-bottom: -4rem;
   }
@@ -1036,9 +1045,17 @@ nav.scrolled {
 
 @media (min-width: 1600px) {
   .carousel-indicators {
-    position: relative;
     bottom: 2.5rem;
   }
+
+  .info-container {
+    height: 15rem;
+    background: url(../src/fondoChico1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+  }
+
 
   nav.scrolled {
     background-position-y: -27.5rem;
